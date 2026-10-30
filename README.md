@@ -4,12 +4,23 @@ A customizable home screen and setup toolkit for Android TV. It is designed for 
 
 Created and maintained by **Sreenand**, a 15-year-old who likes to make and break things. Based on the original TV Detox project by Ansub Khan.
 
-![TV Detox wallpaper upload screen](docs/tvhome-demo-features-uploaded.png)
-
 ## Watch the project
 
 - [YouTube Short](https://www.youtube.com/shorts/UD2A4KC6pn0)
 - [Instagram post](https://www.instagram.com/p/DfGrhvcyepY/)
+## Screenshots
+
+<table>
+<tr>
+<td align="center"><img src="tvhome-demo-features-home.png" alt="TV Detox home screen" width="480"><br>Home screen</td>
+<td align="center"><img src="tv-all-apps-redesign-dpad.png" alt="All apps screen with D-pad focus" width="480"><br>All apps and D-pad navigation</td>
+</tr>
+<tr>
+<td align="center"><img src="tv-settings.png" alt="Wallpaper settings screen" width="480"><br>Wallpaper settings</td>
+<td align="center"><img src="tvhome-demo-features-uploaded.png" alt="Wallpaper uploaded from a phone" width="480"><br>Phone wallpaper upload</td>
+</tr>
+</table>
+
 ## What it does
 
 - Provides a D-pad-friendly Android TV home screen with a clock, app shortcuts, and settings shortcuts.
