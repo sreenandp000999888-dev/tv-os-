@@ -1,0 +1,8 @@
+out/
+key.jks
+*.keystore
+*.apk
+personal-tv-apps.txt
+libs/zxing-src/
+.DS_Store
+.idea
