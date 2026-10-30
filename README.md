@@ -102,4 +102,17 @@ The TV must be on and reachable over ADB. If it is not reachable over Wi-Fi, use
 
 The repository's `LICENSE` and third-party license notice describe the applicable terms. Please keep those notices with redistributed copies.
 
+## Risk disclaimer
+
+TV behavior varies by manufacturer, model, Android version, and firmware. **Reliable percentage estimates are not available**: this project has no published, controlled failure-rate data across TV models, so assigning percentages would be misleading.
+
+| What could go wrong | Possible effect | Chance |
+|---|---|---|
+| ADB is unavailable or the TV blocks installation | Setup cannot connect or install; some features may be unsupported. | Not measured |
+| The TV handles Home, D-pad keys, settings, HDMI, or casting differently | A shortcut or navigation behavior may not work as expected; the TV's original home screen may still open. | Not measured |
+| An eligible launcher or setup package is turned off | Home behavior or setup features may break. Some Google TV models have become stuck restarting when their launcher or setup app was disabled. | Not measured; varies by model |
+| ADB disconnects while changes are being made | Rollback may have to wait until ADB reconnects, possibly over USB. | Not measured |
+| The TV has limited memory or processing power | The new home screen or other apps may still feel slow; no lag-free result is guaranteed. | Not measured |
+
+The installer asks before turning off a recognized launcher and records packages it disables so `undo.sh` can try to re-enable them. By default, Google TV's own launcher is left on. Do not force it off with `GOOGLE_TV=1) unless you understand the risk and have a reliable way to reconnect over USB or ADB. Rollback depends on the TV being reachable and cannot guarantee recovery from every manufacturer-specific problem. Review the scripts and keep the TV maker's recovery options available before proceeding.
 
