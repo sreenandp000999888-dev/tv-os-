@@ -30,7 +30,7 @@ Created and maintained by **Sreenand**, a 15-year-old who likes to make and brea
 - Uses standard Android APIs and ADB; rooting is not required.
 - Includes an `undo.sh` script to re-enable packages disabled by this setup and remove TV Detox.
 
-Compatibility depends on each TV maker's Android version and custom software. The manifest supports Android API 21 and newer, but that does not mean every TV supports every feature or behaves the same way. Check the TV's model and Android version before setup. Do not assume all settings shortcuts, HDMI reporting, or Home-button behavior work on every device.
+This app targets Android TV and Google TV devices running Android 5.0 (API 21) or newer. It should install on compatible TVs that allow APK installation and ADB, but installation cannot be guaranteed on every model: manufacturer restrictions, older software, or custom firmware may block it. Features such as settings shortcuts, HDMI reporting, and Home-button behavior can vary by TV. Check the model and Android version before setup.
 
 ## Set up with an AI coding agent
 
