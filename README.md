@@ -6,6 +6,10 @@ Created and maintained by **Sreenand**, a 15-year-old who likes to make and brea
 
 ![TV Detox wallpaper upload screen](docs/tvhome-demo-features-uploaded.png)
 
+## Watch the project
+
+- [YouTube Short](https://www.youtube.com/shorts/UD2A4KC6pn0)
+- [Instagram post](https://www.instagram.com/p/DfGrhvcyepY/)
 ## What it does
 
 - Provides a D-pad-friendly Android TV home screen with a clock, app shortcuts, and settings shortcuts.
@@ -85,4 +89,5 @@ The TV must be on and reachable over ADB. If it is not reachable over Wi-Fi, use
 - [ZXing/zxing](https://github.com/zxing/zxing) — QR-code encoder source subset is included under `libs/zxing-qr-src/`. Its Apache License 2.0 text is in [`libs/ZXing-LICENSE.txt`](libs/ZXing-LICENSE.txt), and source files retain their license headers.
 
 The repository's `LICENSE` and third-party license notice describe the applicable terms. Please keep those notices with redistributed copies.
+
 
