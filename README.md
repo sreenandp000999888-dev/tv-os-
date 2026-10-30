@@ -621,7 +621,7 @@ TV Detox is licensed under the [MIT License](LICENSE). The bundled QR encoder su
 
 <div align="center">
 
-Made by **Ansub Khan**. I build things like this with AI every week.
+Customized and maintained by **Sreenand**, who likes to make and break things. Based on the original [TV Detox project by Ansub Khan](https://github.com/Ansub/tv-detox).
 
 [**Watch on YouTube →**](https://www.youtube.com/@ansubkhan)
 
