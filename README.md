@@ -1,4 +1,4 @@
-# TV Detox
+# TV os
 
 A customizable home screen and setup toolkit for Android TV. It is designed for use with a local coding agent such as Codex, Gemini CLI, or Claude Code. The agent reads this project, asks which apps you want, and helps you set it up through ADB. The AI is not built into the TV app, and a browser-only chat cannot run commands on your computer.
 
